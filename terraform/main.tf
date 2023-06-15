@@ -17,5 +17,4 @@ provider "aws" {
 
 resource "aws_s3_bucket" "test_by_terraform" {
   bucket = "test-by-terraform"
-  force_destroy = true
 }
